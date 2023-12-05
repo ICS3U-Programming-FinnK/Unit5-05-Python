@@ -2,7 +2,7 @@
 # Created By: Finn Kitor
 # Date: December 4th, 2023
 # this program tells the user to input their address and
-# it will tell them if it is in canada
+# it will tell them their address in uppercase
 
 
 # Function: format address, Parameters: apartment_number, street_number
