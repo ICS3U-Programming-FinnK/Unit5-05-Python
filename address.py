@@ -26,7 +26,7 @@ def format_address(
         raise ValueError("Missing required address components.")
 
     # Formatting the address with named parameters
-
+    formatted_address = ""
     formatted_address += f"STREET NUMBER: {street_number.upper()}\n"
     formatted_address += f"APARTMENT NUMBER: {apartment_number.upper()}\n"
     formatted_address += f"STREET NAME: {street_name.upper()}\n"
