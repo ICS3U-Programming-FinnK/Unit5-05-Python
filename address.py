@@ -39,9 +39,8 @@ def format_address(
 
 def main():
     # Getting user input for the address components
-    address = input("Enter the address: ")
-    apartment_number = input("Enter the apartment number (optional): ")
     street_number = input("Enter the street number: ")
+    apartment_number = input("Enter the apartment number (optional): ")
     street_name = input("Enter the street name: ")
     city = input("Enter the city: ")
     province = input("Enter the province: ")
@@ -50,7 +49,6 @@ def main():
     try:
         # Formatting the address using the format_address function
         formatted_address = format_address(
-            address=address,
             apartment_number=apartment_number,
             street_number=street_number,
             street_name=street_name,
